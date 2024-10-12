@@ -21,7 +21,7 @@ default = []
 
 [dependencies]
 cfg-if = "1.0"
-kernel_guard = { git = "https://github.com/Starry-OS/kernel_guard.git", optional = true }
+kernel_guard = { git = "https://github.com/Josen-B/kernel_guard.git", optional = true }
 percpu_macros = { git = "https://github.com/Starry-OS/percpu_macros.git" }
 
 [target.'cfg(target_arch = "x86_64")'.dependencies]
