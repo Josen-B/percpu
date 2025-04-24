@@ -5,9 +5,10 @@
 extern crate percpu_macros;
 
 #[cfg_attr(feature = "sp-naive", path = "naive.rs")]
-mod imp;
+//mod imp;
+pub mod imple;
 
-pub use self::imp::*;
+pub use self::imple::*;
 pub use percpu_macros::def_percpu;
 
 #[doc(hidden)]
